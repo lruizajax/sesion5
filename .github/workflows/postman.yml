@@ -32,5 +32,5 @@ jobs:
     - name: Upload Test Report
       uses: actions/upload-artifact@v4
       with:
-        name: postman-test-report
+        name: postman-report
         path: report.html
